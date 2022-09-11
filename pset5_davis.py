@@ -6,6 +6,7 @@ Created on Sun Sep 11 11:23:22 2022
 """
 
 from matplotlib import pyplot as plt
+from pydataset import data
 #take average wage dataset
 # take unemployment data
 #take oil and gas spending per capita/household
@@ -13,9 +14,13 @@ from matplotlib import pyplot as plt
 #projected consumption
 import pandas as pd
 import os
-dir=os.getcwd()
-path=dir+"\gasindex\Gasoline Index in Europe 2022.xlsx"
-print(path)
-df=pd.read_csv(path)
-print(df)
-    
+# =============================================================================
+# dir=os.getcwd()
+# path=dir+"\gasindex\Gasoline Index in Europe 2022.xlsx"
+# print(path)
+# df=pd.read_csv(path)
+# print(df)
+# =============================================================================
+data()
+
+   
